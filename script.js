@@ -52,7 +52,7 @@ async function datosTerremotos() {
       
         let properties = feature.properties;
         let titulo = properties.title;
-        let fecha = new Date(properties.time);
+        let fecha = Date(properties.time);
         let ubicacion = properties.place;
         let codigo = properties.code;
         let magnitud = `${properties.mag} ${properties.magType}`;

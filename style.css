@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(12, 12, 210);
+}
+
+#map {
+    height: 400px;
+    width: 1200px;
+    border: 1px solid black;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
